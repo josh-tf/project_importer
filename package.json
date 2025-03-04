@@ -1,0 +1,21 @@
+{
+  "name": "project_importer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "start": "npx tsc && node dist/index.js thing",
+    "compile": "npx tsc"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.2.16",
+    "@octokit/rest": "^21.1.1",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
